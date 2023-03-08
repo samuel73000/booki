@@ -581,7 +581,7 @@ a {
     min-width: 32%;
   }
   /* info */
-  .LogoInfo{
+  .LogoInfo {
     width: 3.2%;
   }
 
@@ -621,9 +621,8 @@ a {
     flex-direction: row;
     gap: 20px;
   }
-  .TitreIcon{
+  .TitreIcon {
     font-size: 13px;
-
   }
   .TexteIconPopulaire1 {
     margin-top: 20px;
@@ -657,11 +656,11 @@ a {
   }
 }
 
-/* responsive telephone  */
+/* responsive mobile */
 @media (max-width: 767px) {
-    body{
-        padding: 0;
-    }
+  body {
+    padding: 0;
+  }
 
   .box-hergement-et-populaire {
     flex-direction: column-reverse;
@@ -685,10 +684,9 @@ a {
 
   .hebergement {
     padding: 30px 0% 15px 18%;
-    border-bottom: 2px solid #f2f2f2 ;
+    border-bottom: 2px solid #f2f2f2;
     width: 38%;
     margin: 0;
-    
   }
 
   .activités {
@@ -705,12 +703,12 @@ a {
   /* titre et slogan */
   .titreheader {
     margin-top: 71px;
-    margin-left: 0px;
+    margin-left: 40px;
   }
   /*  boutton de recherche*/
 
   .recherche {
-    margin-left: 0px;
+    margin-left: 40px;
   }
   .InputRecherche {
     width: 70%;
@@ -748,26 +746,20 @@ a {
     margin-left: 11%;
   }
   .button-Economique {
-    
     padding-right: 6%;
     padding-left: 6%;
-
   }
   .button-Familial {
     padding-right: 14%;
     padding-left: 7%;
-    
   }
   .button-Romantique {
     padding-right: 8%;
     padding-left: 8%;
-   
   }
   .button-Animaux {
     padding-right: 5%;
     padding-left: 7%;
-    
-    
   }
 
   /* info */
