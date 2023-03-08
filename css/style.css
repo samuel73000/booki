@@ -733,7 +733,7 @@ a {
     flex-direction: column;
   }
   .TitreFiltre {
-    margin-left: -80%;
+    margin-left: -67%;
     margin-right: 0;
   }
   .button-filtre {
@@ -743,7 +743,7 @@ a {
     gap: 15px;
     width: 100%;
     margin-top: 20px;
-    margin-left: 11%;
+    margin-left: 20%;
   }
   .button-Economique {
     padding-right: 6%;
