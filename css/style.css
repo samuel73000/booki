@@ -27,11 +27,10 @@ a {
 }
 
 .logo {
-  width: 40%;
+  width: 60%;
   height: 22px;
-  margin-top: 44px;
-  margin-left: 55px;
-  padding-right: 50px;
+  margin-top: 30px;
+  margin-left: 30px;
 }
 .hebergement {
   font-family: "Raleway";
@@ -629,6 +628,9 @@ a {
   }
 
   /* activités */
+  .containerActivités{
+    padding-left: 15px;
+  }
   .imgActivité {
     height: 220px;
   }
@@ -740,26 +742,27 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 15px;
     width: 100%;
     margin-top: 20px;
-    margin-left: 20%;
+    margin-left: 0%;
   }
   .button-Economique {
-    padding-right: 6%;
-    padding-left: 6%;
+    padding-right: 2%;
+    padding-left: 4%;
   }
   .button-Familial {
-    padding-right: 14%;
+    padding-right: 11%;
     padding-left: 7%;
   }
   .button-Romantique {
-    padding-right: 8%;
-    padding-left: 8%;
+    padding-right: 2%;
+    padding-left: 5%;
   }
   .button-Animaux {
-    padding-right: 5%;
-    padding-left: 7%;
+    padding-right: 4%;
+    padding-left: 6%;
   }
 
   /* info */
@@ -790,7 +793,7 @@ a {
   }
 
   .ContainerPopulaire {
-    width: 96%;
+    width: 95%;
     height: 570px;
   }
   .box-carte-populaire {
@@ -813,13 +816,13 @@ a {
   /* hebergement */
 
   .containerHergements {
-    width: 95%;
+    width: 93.2%;
     border-radius: 20px;
     background-color: #f2f2f2;
   }
   .hebergements {
     width: 99%;
-    margin-left: 1%;
+    
   }
   .img1Hébergements {
     height: 200px;
@@ -831,7 +834,9 @@ a {
   /* activités */
 
   .containerActivités {
+    width: 95%;
     margin-top: 15%;
+    margin-right: 50px;
   }
 
   .box-activité {
@@ -840,9 +845,8 @@ a {
     gap: 15px;
   }
   .activité {
-    border-radius: 20px;
-    width: 98%;
-    margin-left: 2%;
+    width: 100%;
+    margin-left: -1.5%;
   }
   /* footer */
   .Footer {
