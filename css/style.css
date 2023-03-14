@@ -306,21 +306,21 @@ a {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 15.6px;
   line-height: 19px;
-  width: 90%;
-  height: 19px;
-  padding: 0 0 0 15px;
+  width: 100%;
+  height: 16px;
+  padding: 0 0 0 10px;
+  margin-bottom: 5px;
 }
 .TexteIcon1 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
-  width: 90%;
   height: 16px;
-  padding: 0 0 0 15px;
+  width: 90%;
+  padding: 0 0 0 10px;
 }
 
 .etoiles {
@@ -404,12 +404,12 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 15px 15px 15px 15px;
+  padding: 15px 15px 5px 15px;
 }
 .TitreIcon {
   width: 95%;
-  height: 15px;
-  font-size: 14px;
+  
+  font-size: 16px;
   line-height: 19px;
   font-weight: 700;
   padding-right: 20px;
@@ -417,7 +417,7 @@ a {
 
 .TexteIconPopulaire1 {
   width: 90%;
-  height: 15px;
+  margin-top: -8%;
   font-size: 14px;
   line-height: 19px;
   font-weight: 400;
@@ -426,7 +426,7 @@ a {
 }
 .TexteIconPopulaire2 {
   width: 90%;
-  height: 15px;
+  margin-top: -8%;
   font-size: 14px;
   line-height: 19px;
   font-weight: 400;
@@ -517,7 +517,7 @@ a {
 
 @media (max-width: 991px) {
   body {
-    padding: 0 10px 0 10px;
+    
 
     max-width: 992px;
   }
@@ -583,7 +583,7 @@ a {
   .TitrePopulaire {
     margin-left: 15px;
     font-size: 19px;
-    width: 99%;
+    width: 96%;
   }
 
   .hebergementsPopualaires1 {
@@ -594,7 +594,7 @@ a {
     gap: 20px;
   }
   .TitreIcon {
-    font-size: 13px;
+    font-size: 16px;
   }
   .TexteIconPopulaire1 {
     margin-top: 20px;
@@ -633,6 +633,7 @@ a {
 
 /* responsive mobile */
 @media (max-width: 767px) {
+  
   body {
     padding: 0;
   }
@@ -640,7 +641,6 @@ a {
   .box-hergement-et-populaire {
     flex-direction: column-reverse;
     gap: 10px;
-    width: ;
   }
 
   /* header et lien  */
@@ -722,26 +722,29 @@ a {
     flex-wrap: wrap;
     gap: 15px;
     width: 100%;
+    
   }
   .button-Economique {
     font-size: 14px;
-    padding: 15px 8% 15px 5%;
-    margin-left: 10px;
+    padding-right: 8%;
+    padding-left: 5%;
+    margin-left: 20px;
   }
   .button-Familial {
     font-size: 14px;
-    padding: 15px 17% 15px 5%;
-    margin-right: 10px;
+    padding-right: 12%;
+    padding-left: 5%;
   }
   .button-Romantique {
     font-size: 14px;
-    padding: 15px 10% 15px 5%;
-    margin-left: 10px;
+    padding-right: 10%;
+    padding-left: 5%;
+    margin-left: 20px;
   }
   .button-Animaux {
     font-size: 14px;
-    padding: 15px 11.2% 15px 5%;
-    margin-right: 10px;
+    padding-right: 6%;
+    padding-left: 5%;
   }
 
   /* info */
@@ -763,10 +766,11 @@ a {
   /* populaire */
 
   .ContainerPopulaire {
-    width: 95.8%;
+    width: 92%;
     height: 570px;
     padding-bottom: 20px;
     border-radius: 0;
+    
   }
   .TitrePopulaire {
     font-size: 22px;
@@ -775,7 +779,7 @@ a {
 
   .hebergementsPopualaires1 {
     width: 100%;
-    margin-left: 5px;
+    margin-left: 3%;
   }
   .box-carte-populaire {
     flex-direction: column;
@@ -795,16 +799,17 @@ a {
   /* hebergement */
 
   .containerHergements {
-    width: 94.5%;
+    width: 89%;
     border-radius: 20px;
     background-color: white;
+    
+    
   }
   .TitreHébergements {
     padding: 0;
     margin: 0;
   }
   .hebergements {
-    margin-left: 0%;
     margin-bottom: 5.5%;
     width: 100%;
   }
@@ -820,11 +825,11 @@ a {
   /* activités */
   .titreActivités {
     margin-bottom: 30px;
-    margin-left: 0px;
+    margin-left: 5px;
     margin-top: 0px;
   }
   .containerActivités {
-    width: 95.8%;
+    width: 92%;
     margin-top: 15%;
   }
 
