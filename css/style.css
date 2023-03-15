@@ -408,7 +408,7 @@ a {
 }
 .TitreIcon {
   width: 95%;
-  
+
   font-size: 16px;
   line-height: 19px;
   font-weight: 700;
@@ -517,8 +517,6 @@ a {
 
 @media (max-width: 991px) {
   body {
-    
-
     max-width: 992px;
   }
 
@@ -596,9 +594,6 @@ a {
   .TitreIcon {
     font-size: 16px;
   }
-  .TexteIconPopulaire1 {
-    margin-top: 20px;
-  }
 
   /* activités */
   .containerActivités {
@@ -633,7 +628,6 @@ a {
 
 /* responsive mobile */
 @media (max-width: 767px) {
-  
   body {
     padding: 0;
   }
@@ -722,7 +716,6 @@ a {
     flex-wrap: wrap;
     gap: 15px;
     width: 100%;
-    
   }
   .button-Economique {
     font-size: 14px;
@@ -770,7 +763,6 @@ a {
     height: 570px;
     padding-bottom: 20px;
     border-radius: 0;
-    
   }
   .TitrePopulaire {
     font-size: 22px;
@@ -802,8 +794,6 @@ a {
     width: 89%;
     border-radius: 20px;
     background-color: white;
-    
-    
   }
   .TitreHébergements {
     padding: 0;
