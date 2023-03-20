@@ -677,10 +677,12 @@ a {
   .titreheader {
     margin-top: 71px;
     margin-left: 40px;
+    margin-right: 40px;
   }
   /*  boutton de recherche*/
 
   .recherche {
+    margin-right: 40px;
     margin-left: 40px;
   }
   .InputRecherche {
@@ -719,25 +721,27 @@ a {
   }
   .button-Economique {
     font-size: 14px;
-    padding-right: 8%;
+    padding-right: 5%;
     padding-left: 5%;
-    margin-left: 20px;
+    margin-left: 30px;
   }
   .button-Familial {
     font-size: 14px;
-    padding-right: 12%;
+    padding-right: 10%;
     padding-left: 5%;
+    margin-right: 30px;
   }
   .button-Romantique {
     font-size: 14px;
-    padding-right: 10%;
+    padding-right: 7%;
     padding-left: 5%;
-    margin-left: 20px;
+    margin-left: 30px;
   }
   .button-Animaux {
     font-size: 14px;
-    padding-right: 6%;
-    padding-left: 5%;
+    padding-right: 5%;
+    padding-left: 3%;
+    margin-right: 30px;
   }
 
   /* info */
@@ -748,11 +752,12 @@ a {
     margin-left: 30px;
     margin-top: 31px;
     margin-bottom: 39px;
+    margin-right: 40px;
   }
   .LogoInfo {
     border: 1px solid #d9d9d9;
     border-radius: 50%;
-    width: 25px;
+    width: 30px;
     height: 22px;
   }
 
@@ -777,6 +782,7 @@ a {
     flex-direction: column;
     margin-top: 50px;
     gap: 15px;
+    width: 96%;
   }
 
   .hebergementsPopualaires {
@@ -798,10 +804,11 @@ a {
   .TitreHébergements {
     padding: 0;
     margin: 0;
+    margin-left: 15px;
   }
   .hebergements {
     margin-bottom: 5.5%;
-    width: 100%;
+    width: 96%;
   }
 
   .img1Hébergements {
@@ -815,7 +822,7 @@ a {
   /* activités */
   .titreActivités {
     margin-bottom: 30px;
-    margin-left: 5px;
+    margin-left: 15px;
     margin-top: 0px;
   }
   .containerActivités {
@@ -827,6 +834,8 @@ a {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    width: 92%;
+    margin-left: 15px;
   }
   .activité {
     width: 100%;
