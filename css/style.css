@@ -828,6 +828,7 @@ a {
   .containerActivités {
     width: 92%;
     margin-top: 15%;
+    margin-left: 0;
   }
 
   .box-activité {
