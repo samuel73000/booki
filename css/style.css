@@ -363,7 +363,7 @@ a {
 
 .TitrePopulaire {
   font-size: 22px;
-  width: 95%;
+  width: 90%;
 }
 
 .conteneur-graph:after {
@@ -444,13 +444,13 @@ a {
   font-size: 22px;
   line-height: 26px;
   margin-bottom: 30px;
-  margin-left: 10px;
   margin-top: 20px;
 }
 
 .containerActivités {
   padding: 28px 15px 65px 0;
   width: 99%;
+  margin-left: 30px;
 }
 
 .box-activité {
@@ -650,7 +650,7 @@ a {
   }
 
   .logo {
-    margin-left: 50%;
+    margin-left: 45%;
     margin-bottom: 30px;
   }
 
@@ -696,6 +696,7 @@ a {
     border-radius: 20px;
     font-size: 0px;
     width: 50px;
+    margin-left: -25px;
   }
   .fa-magnifying-glass {
     font-size: 15px;
