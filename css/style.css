@@ -39,6 +39,7 @@ a {
   font-size: 16px;
   line-height: 19px;
   padding-top: 14px;
+  border-top: solid 3px white;
 }
 
 .activités {
@@ -48,6 +49,7 @@ a {
   font-size: 16px;
   line-height: 19px;
   padding-top: 14px;
+  border-top: solid 3px white;
 }
 
 .titreheader {
@@ -65,7 +67,9 @@ a {
 }
 .SurvoleLien:hover {
   color: blue;
-  border-top: 3px solid #0065fc;
+  border-color: blue;
+  
+  
 }
 
 /********* titre et boutton de recherche*************/
@@ -148,6 +152,7 @@ a {
   font-style: normal;
   font-weight: bold;
   padding: 12px;
+  cursor: pointer;
 }
 .conteneur-billet:after {
   content: "\f53a";
@@ -167,6 +172,7 @@ a {
   font-style: normal;
   font-weight: bold;
   padding: 12px;
+  cursor: pointer;
 }
 
 .conteneur-perso:after {
@@ -187,6 +193,7 @@ a {
   font-style: normal;
   font-weight: bold;
   padding: 12px;
+  cursor: pointer;
 }
 .conteneur-coeur:after {
   content: "\f004";
@@ -206,6 +213,7 @@ a {
   font-style: normal;
   font-weight: bold;
   padding: 12px;
+  cursor: pointer;
 }
 
 .conteneur-flame:after {
@@ -565,6 +573,7 @@ a {
   .box-carte-hebergement1 {
     gap: 4.3%;
   }
+  
 
   /* populaires */
   .ContainerPopulaire {
@@ -580,7 +589,7 @@ a {
   .TitrePopulaire {
     margin-left: 15px;
     font-size: 19px;
-    width: 96%;
+    width: 98%;
   }
 
   .hebergementsPopualaires1 {
@@ -596,10 +605,14 @@ a {
 
   /* activités */
   .containerActivités {
-    padding-left: 15px;
+    padding-left: 0px;
+    
   }
   .imgActivité {
     height: 220px;
+  }
+  .box-activité {
+    gap: 3.5%;
   }
   /* footer */
   .titrePropos {
@@ -657,6 +670,7 @@ a {
   .hebergement {
     padding: 0 8% 15px 8%;
     border-bottom: 2px solid #f2f2f2;
+    border-top: 0px solid;
     width: 38%;
     margin: 0;
   }
@@ -664,14 +678,11 @@ a {
   .activités {
     padding: 0 8% 15px 8%;
     border-bottom: 2px solid #f2f2f2;
+    border-top: 0px solid;
     width: 32%;
     margin: 0;
   }
-  .SurvoleLien:hover {
-    color: blue;
-    border-bottom: 3px solid #0065fc;
-    border-top: 0px solid #0065fc;
-  }
+  
   /* titre et slogan */
   .titreheader {
     margin-top: 71px;
@@ -708,7 +719,7 @@ a {
     margin: 0;
   }
   .TitreFiltre {
-    margin: 20px 0 20px 35px;
+    margin: 30px 0 20px 35px;
   }
   .button-filtre {
     display: flex;
@@ -757,7 +768,7 @@ a {
   .LogoInfo {
     border: 1px solid #d9d9d9;
     border-radius: 50%;
-    width: 30px;
+    width: 31px;
     height: 22px;
   }
 
@@ -804,7 +815,7 @@ a {
   .TitreHébergements {
     padding: 0;
     margin: 0;
-    margin-left: 15px;
+    margin-left: 10px;
   }
   .hebergements {
     margin-bottom: 5.5%;
@@ -822,7 +833,7 @@ a {
   /* activités */
   .titreActivités {
     margin-bottom: 30px;
-    margin-left: 15px;
+    margin-left: 35px;
     margin-top: 0px;
   }
   .containerActivités {
@@ -860,6 +871,7 @@ a {
   }
   .Assistance {
     padding: 0;
+    padding-bottom: 30px;
     margin-left: 30px;
   }
 }
