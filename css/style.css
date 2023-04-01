@@ -605,7 +605,8 @@ a {
 
   /* activités */
   .containerActivités {
-    padding-left: 0px;
+    padding-left: 20px;
+    margin-left: 0;
     
   }
   .imgActivité {
@@ -779,6 +780,7 @@ a {
     height: 570px;
     padding-bottom: 20px;
     border-radius: 0;
+    
   }
   .TitrePopulaire {
     font-size: 22px;
@@ -811,6 +813,7 @@ a {
     width: 89%;
     border-radius: 20px;
     background-color: white;
+    
   }
   .TitreHébergements {
     padding: 0;
@@ -833,13 +836,15 @@ a {
   /* activités */
   .titreActivités {
     margin-bottom: 30px;
-    margin-left: 35px;
+    margin-left: 20px;
     margin-top: 0px;
   }
   .containerActivités {
     width: 92%;
-    margin-top: 15%;
-    margin-left: 0;
+    margin-top: 10%;
+    margin-left: 15px;
+    padding-left: 0;
+    
   }
 
   .box-activité {
@@ -863,15 +868,15 @@ a {
   }
   .APropos {
     padding: 0;
-    margin-left: 30px;
+    margin-left: 20px;
   }
   .NosHébergements {
     padding: 0;
-    margin-left: 30px;
+    margin-left: 20px;
   }
   .Assistance {
     padding: 0;
     padding-bottom: 30px;
-    margin-left: 30px;
+    margin-left: 20px;
   }
 }
