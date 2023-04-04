@@ -68,8 +68,6 @@ a {
 .SurvoleLien:hover {
   color: blue;
   border-color: blue;
-  
-  
 }
 
 /********* titre et boutton de recherche*************/
@@ -573,7 +571,6 @@ a {
   .box-carte-hebergement1 {
     gap: 4.3%;
   }
-  
 
   /* populaires */
   .ContainerPopulaire {
@@ -607,7 +604,6 @@ a {
   .containerActivités {
     padding-left: 20px;
     margin-left: 0;
-    
   }
   .imgActivité {
     height: 220px;
@@ -683,7 +679,7 @@ a {
     width: 32%;
     margin: 0;
   }
-  
+
   /* titre et slogan */
   .titreheader {
     margin-top: 71px;
@@ -780,7 +776,6 @@ a {
     height: 570px;
     padding-bottom: 20px;
     border-radius: 0;
-    
   }
   .TitrePopulaire {
     font-size: 22px;
@@ -813,7 +808,6 @@ a {
     width: 89%;
     border-radius: 20px;
     background-color: white;
-    
   }
   .TitreHébergements {
     padding: 0;
@@ -844,7 +838,6 @@ a {
     margin-top: 10%;
     margin-left: 15px;
     padding-left: 0;
-    
   }
 
   .box-activité {
@@ -880,3 +873,4 @@ a {
     margin-left: 20px;
   }
 }
+
