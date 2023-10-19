@@ -1,0 +1,58 @@
+# Booki - 
+
+Bienvenue sur le projet Booki, un site Web simple conçu en utilisant du HTML et du CSS pour afficher des informations sur des livres. Le site est également responsive, s'adaptant aux différents appareils.
+
+## Aperçu
+
+![Alt text](booki.png)
+
+## Fonctionnalités
+
+- Présentation de livres avec des informations détaillées.
+- Design responsive pour une expérience utilisateur optimale sur mobile et tablette.
+- [Listez ici d'autres fonctionnalités si pertinent.]
+
+## Installation
+
+1. Clonez ce référentiel sur votre machine :
+
+git clone : https://github.com/samuel73000/booki
+
+
+2. Accédez au répertoire du projet :
+
+cd booki
+
+
+3. Ouvrez le fichier `index.html` dans votre navigateur pour visualiser le site.
+
+## Structure du Projet
+
+- `index.html`: La page d'accueil du site.
+- `style.css`: Le fichier de styles CSS pour le site.
+- [Listez ici d'autres fichiers ou répertoires si pertinent.]
+
+## Utilisation
+
+Expliquez comment les utilisateurs peuvent utiliser ou interagir avec votre projet. Par exemple, comment naviguer sur le site, comment afficher les informations des livres, etc.
+
+## Personnalisation
+
+Si vous souhaitez personnaliser ce projet, vous pouvez :
+
+- Modifier les fichiers HTML et CSS pour changer l'apparence et le contenu du site.
+- Ajouter de nouvelles fonctionnalités ou pages au site.
+
+## Contributeurs
+
+- [Pouard Samuel]
+
+Si vous souhaitez contribuer à ce projet, n'hésitez pas à ouvrir une issue ou à envoyer une demande de pull request.
+
+## Licence
+
+Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+
+---
+
+© Pouard Samuel
