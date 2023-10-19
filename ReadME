@@ -31,9 +31,7 @@ cd booki
 - `style.css`: Le fichier de styles CSS pour le site.
 - imageBooki
 
-## Utilisation
 
-Expliquez comment les utilisateurs peuvent utiliser ou interagir avec votre projet. Par exemple, comment naviguer sur le site, comment planifier un voyage, etc.
 
 ## Personnalisation
 
@@ -48,9 +46,7 @@ Si vous souhaitez personnaliser ce projet, vous pouvez :
 
 Si vous souhaitez contribuer à ce projet, n'hésitez pas à ouvrir une issue ou à envoyer une demande de pull request.
 
-## Licence
 
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ---
 
