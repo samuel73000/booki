@@ -15,7 +15,7 @@ a {
   color: black;
 }
 
-/*******header titre et lien ********/
+/****header titre et lien ****/
 .nav {
   display: flex;
   justify-content: space-between;
@@ -872,4 +872,3 @@ a {
     margin-left: 20px;
   }
 }
-
